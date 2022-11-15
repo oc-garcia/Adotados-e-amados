@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="root.css" />
+    <title>Casa do Vira-lata</title>
+  </head>
+  <body>
+    <header class="header">
+      <img src="Assets/pets.svg" alt="Pata de um cachorro" />
+      <img src="Assets/menu.svg" alt="Menu hamburguer" class="header__btn" />
+    </header>
+    <main>
+      <section class="banner">
+        <img src="Assets/Logo.jpeg" alt="Logo casa do Viralata" class="banner__logo" />
+        <h1 class="banner__titulo">Adotar é um ato de amor.</h1>
+        <h2 class="banner__subtitulo">Não existem animais de rua, existem animais nas ruas e eles precisam de nós.</h2>
+        <button class="banner__botao">Quero Adotar</button>
+      </section>
+      <section class="steps">
+        <h3 class="steps__titulo">Como funciona?</h3>
+        <img src="Assets/Pronto para adotar.svg" alt="Homem sentido o seu coração" class="steps__img" />
+        <p class="steps__subtitulo">Primeiro...</p>
+        <p class="steps__texto">Encontre o seu possível novo amigo e companheiro pra vida toda na Casa do Vira-lata</p>
+        <img src="Assets/Burocracia.svg" alt="Homem lidando com muitos papéis" class="steps__img" />
+        <p class="steps__subtitulo">depois...</p>
+        <p class="steps__texto">Preencha nosso cadastro do adotante e acompanhe o status da sua adoção pelo WhatsApp</p>
+        <img src="Assets/Doggie.svg" alt="Homem fazendo carinho em um cachorro" class="steps__img" />
+        <p class="steps__subtitulo">e então...</p>
+        <p class="steps__texto">Caso a adoção seja aprovada, em até 15 dias seu novo amigo pode estar com você!</p>
+      </section>
+      <section class="about">
+        <h3 class="about__titulo">Quem somos?</h3>
+        <p class="about__texto">
+          Somos uma instituição de voluntários formada por moradores de Guarulhos e queremos levar dignidade, saúde e
+          amor aos animais nas ruas dessa região.
+        </p>
+        <img src="Assets/Cachorro adotado 1.png" alt="Duas pessoas com um cachorro entre elas" class="about__img1" />
+        <div class="about__img-container">
+          <img src="Assets/Filhotes na rua 2.png" alt="3 filhotes de cachorro nas ruas" class="about__img2" />
+          <img src="Assets/Cachorro adotado 3.png" alt="Uma mão de pessoa com uma pata canina" class="about__img3" />
+        </div>
+      </section>
+      <section class="volunteers">
+        <h4 class="volunteers__titulo">Conheça os voluntários</h4>
+        <!-- Slider main container -->
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <img src="Assets/colaborador1.png" alt="" />
+              <p><br /><br />Carlos.<br />Fundador.</p>
+            </div>
+            <div class="swiper-slide">
+              <img src="Assets/colaborador2.png" alt="" />
+              <p><br /><br />Roberto.<br />Colaborador.</p>
+            </div>
+            <div class="swiper-slide">
+              <img src="Assets/colaborador3.png" alt="" />
+              <p><br /><br />Maria.<br />Colaboradora.</p>
+            </div>
+            <div class="swiper-slide">
+              <img src="Assets/colaborador4.png" alt="" />
+              <p><br /><br />Fernanda.<br />Colaboradora.</p>
+            </div>
+          </div>
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+
+          <!-- If we need scrollbar -->
+          <div class="swiper-scrollbar"></div>
+        </div>
+      </section>
+      <section class="adopt">
+        <h3 class="adopt__titulo">Adote um amigo</h3>
+        <p class="adopt__texto">
+          Acompanhe o Instagram da Casa do Vira-Lata para ver os animais disponíveis, preencha o cadastro e aguarde o
+          retorno em até 5 dias pelo seu WhatsApp.
+        </p>
+        <p class="adopt__texto-click">Clique no icone abaixo e acesse nossa rede social.</p>
+        <a href="https://www.instagram.com/casadoviralata/?hl=pt-br"
+          ><img src="Assets/instagram.svg" alt="Logo instagram" class="adopt__img-insta"
+        /></a>
+        <button class="adopt__botao">Quero adotar</button>
+        <img
+          src="Assets/Pulando com o pet.svg"
+          alt="Uma pessoa e um cachorro correndo e pulando felizes"
+          class="adopt__img-final" />
+      </section>
+    </main>
+    <footer class="footer">
+      <p class="footer__cr">Octávio Garcia. 2022.</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>

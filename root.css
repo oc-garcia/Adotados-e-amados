@@ -1,0 +1,16 @@
+@import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("styles/steps.css");
+@import url("styles/about.css");
+@import url("styles/volunteers.css");
+@import url("styles/adopt.css");
+@import url("styles/footer.css");
+
+:root {
+  --dark: #36392e;
+  --green: #75a342;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
