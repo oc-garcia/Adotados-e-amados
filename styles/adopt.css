@@ -1,0 +1,49 @@
+.adopt {
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.adopt__titulo {
+  font-weight: 700;
+  font-size: 24px;
+  color: var(--dark);
+  text-align: center;
+}
+
+.adopt__texto,
+.adopt__texto-click {
+  margin-top: 1.5rem;
+  font-weight: 500;
+  font-size: 18px;
+  color: var(--dark);
+  text-align: center;
+  width: 90%;
+}
+
+.adopt__img-insta {
+  width: 50%;
+  margin: 1.5rem 25% 0 25%;
+}
+
+.adopt__botao {
+  height: 3rem;
+  width: 80%;
+  margin: 1.5rem 10% 0 10%;
+  background: var(--green);
+  border: none;
+  border-radius: 50px;
+  color: white;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.adopt__botao:hover {
+  cursor: pointer;
+}
+
+.adopt__img-final {
+  margin: 1.5rem 0 1.5rem 0;
+  width: 80%;
+}

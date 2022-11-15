@@ -1,0 +1,32 @@
+.steps {
+  margin-top: 4rem;
+}
+
+.steps__titulo {
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  color: var(--dark);
+}
+
+.steps__img {
+  width: 60%;
+  margin: 1.5rem 20% 0 20%;
+}
+
+.steps__subtitulo {
+  margin-top: 1.5rem;
+  text-align: center;
+  color: var(--dark);
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.steps__texto {
+  margin: 1.5rem 10% 3rem 10%;
+  text-align: center;
+  width: 80%;
+  font-weight: 500;
+  color: var(--dark);
+  font-size: 16px;
+}

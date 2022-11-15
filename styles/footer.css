@@ -1,0 +1,12 @@
+.footer {
+  background: var(--green);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem;
+}
+
+.footer__cr {
+  font-size: 0.5rem;
+  color: var(--dark);
+}

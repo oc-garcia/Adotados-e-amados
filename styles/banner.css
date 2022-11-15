@@ -1,0 +1,43 @@
+.banner {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  margin: 2rem;
+}
+
+.banner__logo {
+  border-radius: 200px;
+  margin: 0 2.5rem 0 2.5rem;
+}
+
+.banner__titulo {
+  margin: 1rem 2.5rem 0 2.5rem;
+  font-size: 40px;
+  font-weight: 700;
+  color: var(--dark);
+  text-align: center;
+}
+
+.banner__subtitulo {
+  margin: 1rem 2.5rem 0 2.5rem;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--dark);
+  text-align: center;
+}
+
+.banner__botao {
+  height: 3rem;
+  width: 80%;
+  margin: 1.5rem 10% 0 10%;
+  background: var(--green);
+  border: none;
+  border-radius: 50px;
+  color: white;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.banner__botao:hover {
+  cursor: pointer;
+}

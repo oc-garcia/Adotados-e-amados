@@ -1,0 +1,31 @@
+.volunteers {
+  margin-top: 4rem;
+}
+
+.volunteers__titulo {
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+  color: var(--dark);
+  margin-bottom: 2rem;
+}
+
+.swiper {
+  width: 90%;
+  height: 300px;
+  margin: 0 auto;
+}
+
+.swiper-slide img {
+  width: 70%;
+}
+
+.swiper-slide p {
+  text-align: center;
+}
+
+.swiper-button-prev,
+.swiper-button-next,
+.swiper-scrollbar {
+  display: none;
+}

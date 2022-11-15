@@ -1,0 +1,11 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem;
+  background: var(--green);
+}
+
+.header__btn:hover {
+  cursor: pointer;
+}

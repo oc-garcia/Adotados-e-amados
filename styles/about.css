@@ -1,0 +1,42 @@
+.about {
+  margin-top: 4rem;
+}
+
+.about__titulo {
+  font-weight: 700;
+  font-size: 24px;
+  color: var(--dark);
+  text-align: center;
+}
+
+.about__texto {
+  font-weight: 500;
+  font-size: 16;
+  color: var(--dark);
+  text-align: center;
+  width: 90%;
+  margin: 1.5rem 5% 2rem 5%;
+}
+
+.about__img1 {
+  width: 90%;
+  margin: 0 5% 0 5%;
+  border-radius: 20px;
+}
+
+.about__img-container {
+  display: flex;
+  width: 90%;
+  justify-content: space-around;
+  margin: 19.5px 5% 0 5%;
+}
+
+.about__img2 {
+  width: 45%;
+  border-radius: 10px;
+}
+
+.about__img3 {
+  width: 45%;
+  border-radius: 10px;
+}
