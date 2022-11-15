@@ -41,3 +41,15 @@
 .banner__botao:hover {
   cursor: pointer;
 }
+
+@media only screen and (min-width: 1024px) {
+  .banner__logo {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .banner__botao {
+    width: 20%;
+    margin: 1.5rem auto;
+  }
+}
