@@ -9,3 +9,23 @@
 .header__btn:hover {
   cursor: pointer;
 }
+
+.header__nav-item {
+  display: none;
+}
+
+@media only screen and (min-width: 1024px) {
+  .header__btn {
+    display: none;
+  }
+
+  .header__nav {
+    display: flex;
+    width: 400px;
+    justify-content: space-around;
+  }
+
+  .header__nav-item {
+    display: flex;
+  }
+}
