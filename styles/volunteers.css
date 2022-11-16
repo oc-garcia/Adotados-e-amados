@@ -31,6 +31,12 @@
 }
 
 @media only screen and (min-width: 1024px) {
+  .swiper {
+    width: 70%;
+    height: 70%;
+    margin: 0 auto;
+  }
+
   .swiper-slide img {
     width: 50%;
     height: 50%;

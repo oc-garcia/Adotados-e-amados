@@ -27,23 +27,14 @@
   margin: 1.5rem 25% 0 25%;
 }
 
-.adopt__botao {
-  height: 3rem;
-  width: 80%;
-  margin: 1.5rem 10% 0 10%;
-  background: var(--green);
-  border: none;
-  border-radius: 50px;
-  color: white;
-  font-weight: 700;
-  font-size: 18px;
-}
-
-.adopt__botao:hover {
-  cursor: pointer;
-}
-
 .adopt__img-final {
   margin: 1.5rem 0 1.5rem 0;
   width: 80%;
+}
+
+@media only screen and (min-width: 1024px) {
+  .adopt__img-final {
+    margin: 1.5rem 0 1.5rem 0;
+    width: 40%;
+  }
 }
