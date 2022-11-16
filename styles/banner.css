@@ -33,13 +33,17 @@
   background: var(--green);
   border: none;
   border-radius: 50px;
-  color: white;
-  font-weight: 700;
-  font-size: 18px;
 }
 
 .banner__botao:hover {
   cursor: pointer;
+}
+
+.banner__botao a {
+  text-decoration: none;
+  color: var(--white);
+  font-weight: 700;
+  font-size: 18px;
 }
 
 @media only screen and (min-width: 1024px) {

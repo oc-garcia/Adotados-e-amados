@@ -30,3 +30,13 @@
   color: var(--dark);
   font-size: 16px;
 }
+
+@media only screen and (min-width: 1024px) {
+  .flex__container {
+    display: flex;
+  }
+
+  .steps__img {
+    height: 50%;
+  }
+}
