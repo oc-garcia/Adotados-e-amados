@@ -1,0 +1,10 @@
+.form {
+  padding: 5em;
+}
+
+.form__about {
+  margin-top: 1em;
+  font-weight: 500;
+  font-size: 18px;
+  color: var(--dark);
+}

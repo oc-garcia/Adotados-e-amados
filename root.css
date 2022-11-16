@@ -5,6 +5,7 @@
 @import url("styles/volunteers.css");
 @import url("styles/adopt.css");
 @import url("styles/footer.css");
+@import url("styles/contact.css");
 
 :root {
   --dark: #36392e;
