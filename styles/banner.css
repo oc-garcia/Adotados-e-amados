@@ -35,11 +35,13 @@
   border-radius: 50px;
 }
 
-.banner__botao:hover {
+.banner__botao:hover,
+.banner__botao a:hover {
   cursor: pointer;
 }
 
-.banner__botao a {
+.banner__botao a,
+.banner__botao {
   text-decoration: none;
   color: var(--white);
   font-weight: 700;
