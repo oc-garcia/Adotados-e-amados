@@ -8,3 +8,13 @@
   font-size: 18px;
   color: var(--dark);
 }
+
+.form__queries {
+  margin-top: 1em;
+  display: flex;
+  flex-direction: column;
+}
+
+.form__label {
+  margin-top: 1em;
+}
