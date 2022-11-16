@@ -15,9 +15,39 @@
 }
 
 .hamburguer {
+  position: relative;
   display: block;
   width: 35px;
   cursor: pointer;
+
+  appearance: none;
+  background: none;
+  outline: none;
+  border: none;
+}
+
+.hamburguer .bar,
+.hamburguer::after,
+.hamburguer::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 5px;
+  background-color: var(--dark);
+  margin: 6px 0px;
+  transition: 0.4s;
+}
+
+.hamburguer.is-active::before {
+  transform: rotate(-45deg) translate(-8px, 6px);
+}
+
+.hamburguer.is-active::after {
+  transform: rotate(45deg) translate(-9px, -8px);
+}
+
+.hamburguer.is-active .bar {
+  opacity: 0;
 }
 
 @media only screen and (min-width: 1024px) {
