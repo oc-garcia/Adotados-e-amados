@@ -26,11 +26,8 @@ function sendForm() {
   console.log("envia formulário");
 }
 
-function myFunction() {
-  var x = document.getElementById("myLinks");
-  if (x.style.display === "block") {
-    x.style.display = "none";
-  } else {
-    x.style.display = "block";
-  }
-}
+const menu_btn = document.querySelector(".hamburguer");
+
+menu_btn.addEventListener("click", function () {
+  menu_btn.classList.toggle("is-active");
+});
