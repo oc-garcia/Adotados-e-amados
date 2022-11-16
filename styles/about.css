@@ -40,3 +40,23 @@
   width: 45%;
   border-radius: 10px;
 }
+
+.flex__container-laptop {
+  display: none;
+}
+
+@media only screen and (min-width: 1024px) {
+  .flex__container-mobile {
+    display: none;
+  }
+  .flex__container-laptop {
+    display: flex;
+    justify-content: space-around;
+  }
+  .about__img1,
+  .about__img2,
+  .about__img3 {
+    width: 30%;
+    margin: 0 0;
+  }
+}
