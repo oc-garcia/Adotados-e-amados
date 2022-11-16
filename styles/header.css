@@ -28,4 +28,11 @@
   .header__nav-item {
     display: flex;
   }
+
+  .header__nav-item a {
+    text-decoration: none;
+    color: var(--dark);
+    font-weight: 700;
+    font-size: 18px;
+  }
 }
