@@ -11,6 +11,7 @@
       rel="stylesheet" />
     <link rel="stylesheet" href="styles/reset.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link rel="stylesheet" href="root.css" />
     <title>Contato - Adotados e Amados</title>
   </head>
@@ -20,13 +21,14 @@
       <nav>
         <ul class="header__nav">
           <li class="header__nav-item"><a href="index.html">Home</a></li>
-          <li class="header__nav-item"><a href="contato.html">Formulário de adoção</a></li>
+          <li class="header__nav-item"><a href="contato.html">Formulário</a></li>
           <li class="header__nav-item"><a href="feira.html">Feira de adoção</a></li>
         </ul>
       </nav>
       <img src="Assets/menu.svg" alt="Menu hamburguer" class="header__btn" />
     </header>
     <main class="form">
+      <h2 class="banner__subtitulo">Formulário de contato</h2>
       <section>
         <p class="form__about">
           Olá, ficamos muito contentes pela sua opção em adotar e por escolher um bichinho do Adotados e Amados 🙂
@@ -48,45 +50,45 @@
       </section>
       <section class="form__queries">
         <label class="form__label" for="fullname">Nome Completo</label>
-        <input type="text" id="fullname" placeholder="Seu nome completo" />
+        <input type="text" id="userInput" id="fullname" placeholder="Seu nome completo" />
         <label class="form__label" for="petname">Animal a ser adotado</label>
-        <input type="text" id="petname" />
+        <input type="text" id="userInput" id="petname" />
         <label class="form__label" for="email">E-mail</label>
-        <input type="email" id="email" />
+        <input type="email" id="userInput" id="email" />
         <label for="ddd" class="form__label">DDD</label>
-        <input type="number" id="ddd" placeholder="2 dígitos" />
+        <input type="number" id="ddd" id="userInput" placeholder="2 dígitos" />
         <label class="form__label" for="tel">Telefone/WhatsApp</label>
-        <input type="number" id="tel" placeholder="Seu principal Nr. de contato" />
+        <input type="number" id="tel" id="userInput" placeholder="Seu principal Nr. de contato" />
         <label class="form__label" for="datebirth">Data de nascimento</label>
-        <input type="date" id="datebirth" />
+        <input type="date" id="datebirth" id="userInput" />
         <label for="insta" class="form__label">Instagram (opcional)</label>
-        <input type="text" id="insta" placeholder="@" />
+        <input type="text" id="insta" placeholder="@" id="userInput" />
         <label class="form__label" for="facebook">Facebook (opcional)</label>
-        <input type="text" id="facebok" placeholder="facebook.com/" />
+        <input type="text" id="facebok" placeholder="facebook.com/" id="userInput" />
         <label class="form__label" for="address">Endereço completo (rua, número, complemento)</label>
-        <input type="text" id="address" placeholder="Seu endereço completo" />
+        <input type="text" id="address" placeholder="Seu endereço completo" id="userInput" />
         <label for="neighborhood" class="form__label">Bairro</label>
-        <input type="text" id="neighborhood" />
+        <input type="text" id="neighborhood" id="userInput" />
         <label class="form__label" for="city">Cidade</label>
-        <input type="text" id="city" />
+        <input type="text" id="city" id="userInput" />
         <label for="province" class="form__label">UF</label>
-        <input type="text" id="province" />
+        <input type="text" id="province" id="userInput" />
         <label for="question1" class="form__label">1. Você está adotando um cão para ser:</label>
-        <select id="question1">
+        <select id="question1" id="userInput">
           <option value=""></option>
           <option value="Companhia">Companhia</option>
           <option value="Guarda">Guarda</option>
           <option value="Outro">Outro</option>
         </select>
         <label for="question2" class="form__label">2. Mora em casa ou apartamento?</label>
-        <select id="question2">
+        <select id="question2" id="userInput">
           <option value=""></option>
           <option value="Casa">Casa</option>
           <option value="Apartamento">Apartamento</option>
           <option value="Outro">Outro</option>
         </select>
         <label for="question3" class="form__label">3. Você tem certeza que é permitido animais no imóvel?</label>
-        <select id="question3">
+        <select id="question3" id="userInput">
           <option value=""></option>
           <option value="Não">Não</option>
           <option value="Sim, já verifiquei e tenho certeza!">Sim, já verifiquei e tenho certeza!</option>
@@ -96,64 +98,112 @@
           no pátio, nunca preso em corrente ou cubículos? Ele terá livre acesso ao interior da residência? Onde irá
           dormir?</label
         >
-        <input type="text" id="question4" />
+        <input type="text" id="question4" id="userInput" />
         <label class="form__label" for="question5"
           >5. O que você faria caso precisasse mudar de residência, cidade ou estado?</label
         >
-        <input type="text" id="question5" />
+        <input type="text" id="question5" id="userInput" />
         <label class="form__label" for="question6"
           >6. Já há outros animais na casa? Se sim, quais? São castrados e vacinados?</label
         >
-        <input type="text" id="question6" />
+        <input type="text" id="question6" id="userInput" />
         <label class="form__label" for="question7"
           >7. Caso não tenha outros animais atualmente, já teve? Conte a história dele(s)</label
         >
-        <input type="text" id="question7" />
-        <label class="form__label" for="question8"></label>
+        <input type="text" id="question7" id="userInput" />
+        <label class="form__label" for="question8">
           8. Se você tem outros animais atualmente, haverá espaço para prevenir uma briga territorial? Terá paciência
-          para fazer a adaptação deles? Como será a adaptação?</label>
-        <input type="text" id="question8" />
+          para fazer a adaptação deles? Como será a adaptação?</label
+        >
+        <input type="text" id="question8" id="userInput" />
         <label class="form__label" for="question9">
           9. Um cão pode viver 15 anos ou mais. Cuidará bem dele até seu último dia de vida? Continuará o amando e
-          respeitando quando estiver idoso, com doenças crônicas e/ou deficiência mental/física?</label>
-        <input type="text" id="question9" />
-        <label class="form__label" for="question10">10. Tem certeza de que não está adotando por impulso, só porque o cãozinho ainda é filhote, por causa da raça ou por que seu filho ou filha insistiu para ganhar um?</label>
-        <input type="text" id="question10" />
-        <label class="form__label" for="question11">11. Como fará a educação do animal, sabendo que ele pode não aprender na 1ª vez? O que faria se ele mordesse alguém da família, estragasse alguma coisa na casa ou fizesse as necessidades no lugar errado?</label>
-        <input type="text" id="question11" />
-        <label class="form__label" for="question12">12. Qual será sua atitude se o cão latir à noite ou quando não há ninguém em casa (tendo reclamações dos vizinhos)?</label>
-        <input type="text" id="question12" />
-        <label class="form__label" for="question13">13. O que você pensa sobre passar a guarda para outra pessoa?</label>
-        <input type="text" id="question13" />
-        <label class="form__label" for="question14">14. Está disposto a limpar xixi e cocô, levá-lo para passear, dar comida nos horários certos, tratá-lo quando doente e dar atenção e carinho?</label>
-        <input type="text" id="question14" />
-        <label class="form__label" for="question15">15. Poderá arcar com os custos de ração de qualidade, vermifugação, vacinação, castração e assistência veterinária? Qual seria sua atitude se ele adoecesse ou sofresse algum acidente?</label>
-        <input type="text" id="question15" />
+          respeitando quando estiver idoso, com doenças crônicas e/ou deficiência mental/física?</label
+        >
+        <input type="text" id="question9" id="userInput" />
+        <label class="form__label" for="question10"
+          >10. Tem certeza de que não está adotando por impulso, só porque o cãozinho ainda é filhote, por causa da raça
+          ou por que seu filho ou filha insistiu para ganhar um?</label
+        >
+        <input type="text" id="question10" id="userInput" />
+        <label class="form__label" for="question11"
+          >11. Como fará a educação do animal, sabendo que ele pode não aprender na 1ª vez? O que faria se ele mordesse
+          alguém da família, estragasse alguma coisa na casa ou fizesse as necessidades no lugar errado?</label
+        >
+        <input type="text" id="question11" id="userInput" />
+        <label class="form__label" for="question12"
+          >12. Qual será sua atitude se o cão latir à noite ou quando não há ninguém em casa (tendo reclamações dos
+          vizinhos)?</label
+        >
+        <input type="text" id="question12" id="userInput" />
+        <label class="form__label" for="question13"
+          >13. O que você pensa sobre passar a guarda para outra pessoa?</label
+        >
+        <input type="text" id="question13" id="userInput" />
+        <label class="form__label" for="question14"
+          >14. Está disposto a limpar xixi e cocô, levá-lo para passear, dar comida nos horários certos, tratá-lo quando
+          doente e dar atenção e carinho?</label
+        >
+        <input type="text" id="question14" id="userInput" />
+        <label class="form__label" for="question15"
+          >15. Poderá arcar com os custos de ração de qualidade, vermifugação, vacinação, castração e assistência
+          veterinária? Qual seria sua atitude se ele adoecesse ou sofresse algum acidente?</label
+        >
+        <input type="text" id="question15" id="userInput" />
         <label class="form__label" for="question16">16. Irá respeitar e se adequar à personalidade do animal?</label>
-        <input type="text" id="question16" />
-        <label class="form__label" for="question17">17. Alguém da sua família apresenta sinais de alergia a pêlos de animais? Se, após a adoção, você descobrisse que alguém na sua casa tem alergia, o que faria?</label>
-        <input type="text" id="question17" />
+        <input type="text" id="question16" id="userInput" />
+        <label class="form__label" for="question17"
+          >17. Alguém da sua família apresenta sinais de alergia a pêlos de animais? Se, após a adoção, você descobrisse
+          que alguém na sua casa tem alergia, o que faria?</label
+        >
+        <input type="text" id="question17" id="userInput" />
         <label class="form__label" for="question18">18. O que fará com o cão quando viajar?</label>
-        <input type="text" id="question18" />
-        <label class="form__label" for="question19">19. Todos os moradores da casa respeitam animais e aceitaram a adoção sem problemas e restrições? Qual seria sua atitude se alguém da residência não se adaptasse ao bichinho?</label>
-        <input type="text" id="question19" />
-        <label class="form__label" for="question20">20. No caso de alguém da família vir a engravidar, o animal continuará sendo tratado da mesma maneira?</label>
-        <input type="text" id="question20" />
-        <label class="form__label" for="question21">21. Se tiver criança em casa, se responsabilizará a ensiná-la que o animal não é um brinquedo, que sente dor e deve ser respeitado, evitando que ambos se machuquem?</label>
-        <input type="text" id="question21" />
-        <label class="form__label" for="question22">22. Tem certeza de que não há nenhum tipo de veneno guardado em casa, e não utilizará desses produtos, correndo o risco de o cão encontrar e vir a ingerir? Ex: chumbinho</label>
-        <input type="text" id="question22" />
-        <label class="form__label" for="question23">23. Qual sua posição sobre deixar os cães passearem sem guia na rua?</label>
-        <input type="text" id="question23" />
-        <label class="form__label" for="question24">24. Em média, quantas horas seu animal ficará sozinho em casa? Caso seja necessário ficar mais de 6h sozinho, está disposto a enriquecer o ambiente com brinquedos, passear antes de sair e ao chegar e/ou contratar uma petsitter?</label>
-        <input type="text" id="question24" />
-        <label class="form__label" for="question25">25. Em caso de fugas, se compromete em comunicar o Santuário e a realizar tudo que for necessário para a localização do cão, independente dos custos e envolvimento acarretados?</label>
-        <input type="text" id="question25" />
-        <label class="form__label" for="question26">26. Concorda em enviar informações e fotos do cãozinho de tempos em tempos espontaneamente ou quando solicitado?</label>
-        <input type="text" id="question26" />
-        <label class="form__label" for="question27">27. Em caso de ocorrer algum problema que motive a devolução do animal, se compromete a contatar o Santuário para combinar a mesma, não repassando-o para outra pessoa sem nosso conhecimento?</label>
-        <input type="text" id="question27" />
-        <button class="banner__botao">Enviar formulário</button>
+        <input type="text" id="question18" id="userInput" />
+        <label class="form__label" for="question19"
+          >19. Todos os moradores da casa respeitam animais e aceitaram a adoção sem problemas e restrições? Qual seria
+          sua atitude se alguém da residência não se adaptasse ao bichinho?</label
+        >
+        <input type="text" id="question19" id="userInput" />
+        <label class="form__label" for="question20"
+          >20. No caso de alguém da família vir a engravidar, o animal continuará sendo tratado da mesma maneira?</label
+        >
+        <input type="text" id="question20" id="userInput" />
+        <label class="form__label" for="question21"
+          >21. Se tiver criança em casa, se responsabilizará a ensiná-la que o animal não é um brinquedo, que sente dor
+          e deve ser respeitado, evitando que ambos se machuquem?</label
+        >
+        <input type="text" id="question21" id="userInput" />
+        <label class="form__label" for="question22"
+          >22. Tem certeza de que não há nenhum tipo de veneno guardado em casa, e não utilizará desses produtos,
+          correndo o risco de o cão encontrar e vir a ingerir? Ex: chumbinho</label
+        >
+        <input type="text" id="question22" id="userInput" />
+        <label class="form__label" for="question23"
+          >23. Qual sua posição sobre deixar os cães passearem sem guia na rua?</label
+        >
+        <input type="text" id="question23" id="userInput" />
+        <label class="form__label" for="question24"
+          >24. Em média, quantas horas seu animal ficará sozinho em casa? Caso seja necessário ficar mais de 6h sozinho,
+          está disposto a enriquecer o ambiente com brinquedos, passear antes de sair e ao chegar e/ou contratar uma
+          petsitter?</label
+        >
+        <input type="text" id="question24" id="userInput" />
+        <label class="form__label" for="question25"
+          >25. Em caso de fugas, se compromete em comunicar o Santuário e a realizar tudo que for necessário para a
+          localização do cão, independente dos custos e envolvimento acarretados?</label
+        >
+        <input type="text" id="question25" id="userInput" />
+        <label class="form__label" for="question26"
+          >26. Concorda em enviar informações e fotos do cãozinho de tempos em tempos espontaneamente ou quando
+          solicitado?</label
+        >
+        <input type="text" id="question26" id="userInput" />
+        <label class="form__label" for="question27"
+          >27. Em caso de ocorrer algum problema que motive a devolução do animal, se compromete a contatar o Santuário
+          para combinar a mesma, não repassando-o para outra pessoa sem nosso conhecimento?</label
+        >
+        <input type="text" id="question27" id="userInput" />
+        <button class="banner__botao" onclick="sendForm ()">Enviar formulário</button>
       </section>
     </main>
     <footer class="footer">

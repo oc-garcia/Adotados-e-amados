@@ -1,5 +1,6 @@
-.form {
-  padding: 5em;
+.form,
+.location {
+  padding: 1em 5em;
 }
 
 .form__about {
@@ -16,5 +17,10 @@
 }
 
 .form__label {
+  margin-top: 1em;
+  color: var(--dark);
+}
+
+.map {
   margin-top: 1em;
 }
